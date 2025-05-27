@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Assets/logo.png"/>
+    <title>Melizora's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="Assets/logo.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Melizora">Melizora</h1>
+                    <p class="title">Développeuse Web</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:melizora0@gmail.com" class="contact-link">melizora0@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Numéro</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+33 6 00 00 00 00</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Âge</p>
+
+                            <time datetime="1982-06-23">20 ans</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Localisation</p>
+
+                            <address>France</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://discord.gg/2Mbkauszge" class="social-link"><ion-icon name="logo-discord"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://x.com/melizora4?s=21&t=hHpfNMqJhsqU1MkVC7ttTQ" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/melizora_/" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">À propos de moi</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>🎓 J'ai quitté l'administration pour suivre ma passion : le développement web. Actuellement en <b>Bac+2 Informatique</b>, je concrétise enfin mon rêve.</p>
+                    <p>💻 J'aime créer des sites à la fois fonctionnels et esthétiques, où technique et créativité se rencontrent pour donner vie à vos idées.</p>
+
+                    <p>🛠️ <b>HTML</b>, <b>CSS</b>, <b>SQL</b>, <b>WordPress</b> et <b>SEO</b> sont mes alliés quotidiens. Je conçois aussi des maquettes sur <b>Figma/XD</b> et retouche des visuels avec <b>Photoshop</b>, tandis que <b>JavaScript</b>, <b>PHP</b>, <b>React</b> et <b>C</b> rejoignent progressivement mon arsenal.</p>
+
+                    <p>🧠 À l'aise sur <b>Mac</b> comme sur <b>Windows</b>, je suis disponible pour des missions en <b>freelance</b> ou en <b>sous-traitance</b> pour transformer vos projets web en réalité.</p>
+                    </section>
+                
+
+                <section class="service">
+                    <h3 class="h3 service-title">Ce que je fais</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Assets/Icons/design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Design Web</h4>
+                                <p class="service-item-text">Interfaces élégantes et performantes conçues avec précision pour sublimer votre présence digitale.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Assets/Icons/dev.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Bot discord</h4>
+                                <p class="service-item-text">Architecture code robuste et solutions sur mesure pour des sites performants et évolutifs.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Assets/Icons/photoshop.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photoshop</h4>
+                                <p class="service-item-text">Retouches photo professionnelles, création de flyers impactants et cartes de visite pour valoriser votre entreprise.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="Assets/Icons/dessin.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Dessin</h4>
+                                <p class="service-item-text">Le dessin, refuge où j'exprime ma vision du monde en quelques traits, nourrissant ma créativité quotidienne.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+<!--
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Lewis</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica Miller</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Working with Richard has been an absolute pleasure. I was impressed with his attention to detail, his web design skills and his professional approach to our timelines and processes.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/fRFWhX9F/avatar-3.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily Evans</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I couldn't be happier with the website that Richard created for us. His attention to detail and creativity is unmatched. Our clients frequently compliment the design, and it has significantly improved our brand image.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zXv1Xv81/avatar-4.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry Williams</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I was overwhelmed with the thought of redesigning my online store, but Richard made the process seamless. The site is not only visually appealing but also optimized for conversions. I've seen a 50% increase in traffic since the launch!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+-->
+<!--
+                <section class="clients">
+                    <h3 class="h3 clients-title">Clients</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/YqfKyG66/logo-1-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/fWm6JtgG/logo-2-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/Bb07xpwd/logo-3-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/hv1yMmkh/logo-4-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/ry1P86Dc/logo-5-color.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://i.postimg.cc/SsWDN8NV/logo-6-color.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+-->
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                
+                    <ol class="timeline-list">
+                        <li class="timeline-item" style="margin-bottom: 20px;">
+                            <h4 class="h4 timeline-item-title">BleueBuzz, Marseille (Alternance)</h4>
+                            <span>Sep. 2023 - Août. 2026 | Développeuse Web</span>
+                            <ul class="timeline-text" style="margin-top: 10px;">
+                                <li style="margin-bottom: 8px;">Créer des animations sous <b>HTML/CSS</b></li>
+                                <li style="margin-bottom: 8px;">Concevoir des visuels Instagram/Facebook avec <b>Photoshop</b></li>
+                                <li style="margin-bottom: 8px;">Améliorer d'un site internet avec <b>Wordpress</b></li>
+                                <li>Créer un jeu en <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b>, <b>MySQL</b></li>
+                            </ul>
+                        </li>
+                
+                        <li class="timeline-item" style="margin-bottom: 30px;">
+                            <h4 class="h4 timeline-item-title">Mon école (Projets pédagogiques)</h4>
+                            <span>2023 - 2025 | Développeuse</span>
+                            <ul class="timeline-text" style="margin-top: 10px;">
+                                <li style="margin-bottom: 8px;">Conception et développement de sites web et applications interactives avec gestion de projets via <b>Trello</b></li>
+                                <li style="margin-bottom: 5px;"><b>Projets clés :</b></li>
+                                <ul style="margin-left: 15px;">
+                                    <li style="margin-bottom: 8px;">Jeu Pacman en <b>langage C</b></li>
+                                    <li style="margin-bottom: 8px;">Site vitrine de librairie (<b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>PHP</b>, <b>MySQL</b>)</li>
+                                    <li style="margin-bottom: 8px;">Plateforme Caureva (Front-end <b>Node.js</b>)</li>
+                                    <li>Progiciel de restauration en équipe (<b>PHP</b>, <b>HTML/CSS</b>, <b>JavaScript</b>, <b>SQL</b>)</li>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Cycle Bachelor Numérique</h4>
+                            <span>2023 - 2026</span>
+                            <p class="timeline-text">- Acquérir des compétences en <b>HTML</b>, <b>CSS</b>, <b>PHP</b>, <b>SQL</b>, <b>JavaScript</b>,<b>C</b>, <b>SEO</b> <br>
+                                - Concevoir du design graphique, créer des vidéos, gérer des projets <br>
+                                - Utiliser des outils comme <b>Trello</b>, <b>PAO</b></p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Baccalauréat AGORA</h4>
+                            <span>2020 - 2023</span>
+                            <p class="timeline-text">- Utiliser un outil de gestion de projet comme <b>Trello</b> <br>
+                                - Travailler sur la bureautique (<b>Pack Microsoft office</b>) et pratiquer la communication orale</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Web Design</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Graphic Design</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Branding</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">WordPress</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Site Web</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>Bot discord</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Site Web</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Bot discord</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="bot discord">
+                            <a href="https://discord.gg/2Mbkauszge">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./Assets/projets/bot-discord.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Bot personnel</h3>
+                                <p class="project-category">Bot discord</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="site web">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./Assets/projets/jeu-html.png" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Jeu Html5 - En cours</h3>
+                                <p class="project-category">Site Web</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./Assets/projets/app.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Ma Première application - En cours</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
