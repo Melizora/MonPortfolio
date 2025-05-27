@@ -668,7 +668,7 @@ article { display: none; }
 }
 
     .timeline-list span {
-        color: var(--vegas-gold);
+        color: var(--pink-primary);
         font-weight: var(--fw400);
         line-height: 1.6;
     }
